@@ -30,6 +30,6 @@ main {
 }
 
 .mole {
-    background-image: url(/resources/mole.jpeg) ;
+    background-image: url(/mole.jpeg) ;
     background-size: contain;
 }
