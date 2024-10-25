@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    gap: 5vmax;
+
+}
+
+.grid {
+    margin: 0 auto;
+    gap: 2vmax;
+    display: grid;
+    grid-template-columns: repeat(3, 10vmax);
+    grid-template-rows: repeat(3, 10vmax);
+    align-content: center;
+    justify-content: center;
+}
+
+.square {
+    border: 2px solid black;
+}
+
+.mole {
+    background-image: url(/resources/mole.jpeg) ;
+    background-size: contain;
+}
